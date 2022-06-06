@@ -1,0 +1,101 @@
+/* custom css goes here */
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #2e313a;
+  }
+
+  
+  .centered-content {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  
+  button {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #f13e3e;
+    border: 2px solid #f13e3e;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: transparent;
+    color: #f13e3e;
+  }
+
+  
+  .section-title {
+    margin: 70px 0 40px 0;
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .section-title.with-description {
+    margin: 70px 0 0 0;
+  }
+  
+  .title-description {
+    margin-bottom: 40px;
+    font-weight: lighter;
+  }
+  
+  .right-aligned {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  
+  input,
+  select {
+    padding: 10px 15px;
+    margin-top: 7px;
+    border: 1px solid #979797;
+  }
+  
+  input::placeholder {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: lighter;
+  }
+  
+  .grouped-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .grouped-inputs > * {
+    flex-grow: 1;
+  }
+  
+  footer {
+    margin-top: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+  }
+
+  .content {
+    width: 980px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  
